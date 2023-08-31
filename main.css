@@ -1,0 +1,292 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica Neue";
+    gap: 40px;
+    max-width: 1550px;
+    background-color: rgb(237, 190, 198);
+
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+/* navbar */
+.navbarParent{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbarLeftMenu{
+    display: flex;
+    flex-direction: row;
+}
+.navbarLeftMenuOl{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 15px;    
+}
+.navbarLeftMenuOl li{
+    padding: 15px;
+    color: #a5a5a8;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.navbarMenuImg{
+    max-width: 70px;
+    width: 100%;
+
+}
+.navbarMenuImg img{
+    max-width: 70px;
+    width: 100%;
+}
+.navbarRightMenu{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.navbarRightMenuOl{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 15px;
+}
+.navbarRightMenuOl li{
+    padding: 15px;
+    color: #a5a5a8;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* hero */
+
+.hero .container{
+    /* background-image: url(//www.evian.com/en_us/wp-content/themes/evian/assets/css/../images/home-hero-bg.jpg); */
+    background-image: url("./images/vitana\ water.webp");
+    background-size:cover;
+    max-width: 1400px;
+    width: 100;
+    height: 778px;
+    position: relative;
+    overflow: hidden;
+}
+.heroContent{
+    position: relative;
+    width: 600px;
+    left: 100px;
+    top: 120px
+}
+.heroContent h1{
+    color: #615f68;
+    font-size: 72px;
+    font-weight: 100;
+    line-height: 70px;
+    letter-spacing: -2px;
+    margin-bottom: 40px;
+}
+.heroContent p{
+    color: #615f68;
+    font-size: 24px;
+    line-height: 30px;
+    padding-right: 50px;
+}
+
+/* EVEAIN BALMAIN */
+
+.evianBalmain .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.EBLeft{
+    padding: 80px 70px 50px ;
+    text-align: center;
+    background-color: rgb(234, 168, 179);
+
+}
+.EBLeft p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 50px;
+    margin-bottom: 60px;
+}
+.EBLeftImg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap :20px;
+
+}
+.EBLeftImg img{
+    max-width: 160px;
+    width: 100%;
+}
+
+.EBRight img{
+    max-width: 700px;
+    width: 100%;
+}
+.EBButton{
+    color: #615f68;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1.392857px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    max-width: 232px;
+    width: 100%;
+    margin-top: 30px;
+}
+.evianBalmainSecond .container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+/* evian sparkling */
+.Sparkling .container {
+    background-image: url(./images/pexels-philippe-donn-1169754.jpg);
+    background-size: cover;
+}
+.esChild{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 106px 508px 300px 135px;
+    flex: 1;
+    position: relative;
+}
+.esH{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 300;
+}
+
+/* ourstory ourwater */
+
+.ourStoryourWater .container{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+}
+.ourWater{
+    display: flex;
+    flex-direction: column;
+}
+.ourWaterImg{
+    max-width: 45vw;
+    max-height: 415px;
+    width: 100%;
+    height: 100%;
+}
+.ourWaterMenu{
+    padding: 70px 100px;
+    max-width: 45vw;
+    width: 100%;
+    background-color: #fff;
+}
+.ourWaterH{
+    color: #615f68;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 59px;
+    margin-bottom: 30px;
+}
+.ourWaterP{
+    color: #615f68;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+/* action */
+.actions .container{
+    display: flex;
+    flex-direction: row;
+}
+.actionsImg{
+    max-width: 50vw;
+    width: 100%;
+    
+}
+.actionsMenu{
+    padding: 70px 100px;
+    max-width: 50vw;
+    width: 100%;
+    background-color: #fff;
+}
+/* where to buy */
+.whereToBuy .container{
+    display: flex;
+    flex-direction: row;
+}
+.whereToBuyImg{
+    max-width: 50vw;
+    width: 100%;
+}
+.whereToBuyMenu{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 70px 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+ /* foooter */
+ footer{  
+      background-color: #fff;
+ }
+footer .container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 120px;
+}
+.footerMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20p;
+}
+.footerMenuImg{
+    max-width: 90px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
+}
+.footerMenuText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footerMenuText p{
+    color: #615f68;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+.footerMenuText li{
+    color: #615f68;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 24px;
+    list-style-type: none;
+}
